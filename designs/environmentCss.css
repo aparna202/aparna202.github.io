@@ -1,0 +1,219 @@
+.plant{
+	position: relative;
+	top: 450px;
+	margin-left: 45%;
+	width: 70px;
+	height: 35px;
+	background-color: #A0522D;
+	border-radius:40% 40% 50% 50% ;
+	transform: rotate(180deg);
+}
+
+.stem{
+	position:relative;
+	background-color: #3CB371;
+	height: 10px;
+	width: 8px; 
+	left: 31px;
+	top: 21px;
+	animation-name: example;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+}
+
+@keyframes example{
+	from{
+		height: 10px;
+	}
+	to{
+		height: 140px;
+	}
+}
+
+.leaf1{
+	position: relative;
+	background-color: #2E8B57;
+	height:20px;
+	width:5px;
+	top: 100px;
+	transform: rotate(35deg);
+	right: 6px;
+}
+
+.leaf2{
+	position:relative;
+	background-color: #2E8B57;
+	height:20px;
+	width: 5px;
+	top: 60px;
+	left: 8px;
+	transform: rotate(-43deg);
+}
+
+.leaf3{
+	position: relative;
+	background-color: #2E8B57;
+	height: 20px;
+	width: 5px;
+	top: 10px;
+	right: 8px;
+	transform: rotate(43deg);
+}
+
+.leaf4{
+	position: relative;
+	background-color: #2E8B57;
+	height: 20px;
+	width: 5px;
+	top: -30px;
+	left: 10px;
+	transform: rotate(-48deg);
+}
+
+div.leaf1>div, div.leaf3>div{
+	position: absolute;
+	background-color: #2E8B57;
+	height:20px;
+	width:20px;
+	border-radius: 0 75px 75px 75px;
+	transform: rotate(265deg);
+	padding:4px;
+	border: 1px solid #008B8B;
+	top: 14px;
+	right: -2px;
+	opacity:0;
+}
+
+div.leaf2>div, div.leaf4>div{
+	position: absolute;
+	background-color: #2E8B57;
+	height:20px;
+	width:20px;
+	border-radius: 0 75px 75px 75px;
+	transform: rotate(195deg);
+	padding: 4px;
+	border: 1px solid #008B8B;
+	top: 15px;
+	left:-5px;
+	opacity:0;
+}
+
+.leaf1, .leaf2, .leaf3, .leaf4{
+	opacity:0;
+	animation-name: change;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-delay: 2.2s; 
+}
+
+@keyframes change{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1; height: 20px;
+	}
+}
+
+div.leaf1>div, div.leaf2>div, div.leaf3>div, div.leaf4>div{
+	animation-name: changes;
+	animation-duration: 0.7s;
+	animation-fill-mode: forwards;
+	animation-delay: 4.2s;
+	opacity:0;
+}
+
+@keyframes changes{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+body{
+	background: radial-gradient(circle, rgba(212,253,255,1) 0%, rgba(177,245,190,1) 33%);
+	background-size: 100%;
+	animation-name: changess;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	animation-delay: 1.3s;
+	animation-timing-function: ease-in;
+	opacity:0.8;
+}
+
+@keyframes changess{
+	from{
+		background: radial-gradient(circle, rgba(212,253,255,1) 0%, rgba(177,245,190,1) 33%); opacity:0.8;
+	}
+	to{
+		background: radial-gradient(circle,rgba(156,241,245,1) 15%, rgba(145,242,164,1) 82%); opacity:1;
+	}
+}
+
+.waterdroplet{
+	position: relative;
+	top: 30px;
+	margin-left: 45%;
+	background-color: #6495ED;
+	height:70px;
+	width: 70px;
+	border-radius: 0 75px 75px 75px;
+	transform: rotate(45deg);
+	animation-name: water;
+	animation-duration: 1s;
+	animation-delay: 3.9s;
+	animation-fill-mode: forwards;
+	opacity:0;
+}
+
+@keyframes water{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+p{
+	display: inline-block;
+}
+
+.para1{
+	position: absolute;
+	top: 40px;
+	left: -170px;
+	transform: rotate(-45deg);
+	font-size: 400%;
+}
+
+.para2{
+	position: absolute;
+	top: -177px;
+	left: 60px;
+	transform: rotate(-45deg);
+	font-size: 410%;
+}
+
+.para3{
+	position: absolute;
+	top: -92px;
+	transform: rotate(-45deg);
+	font-size: 410%;
+	left: -90px;
+}
+
+p{
+	font-family: Arial;
+	font-weight: bold;
+	color: #8A2BE2;
+	text-shadow: 5px 5px #E6E6FA;
+	opacity: 0;
+	animation-name: water;
+	animation-duration: 1s;
+	animation-delay: 4.3s;
+	animation-fill-mode: forwards;
+}

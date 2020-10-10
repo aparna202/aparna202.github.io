@@ -1,0 +1,134 @@
+body{
+	background-color: 	#D8BFD8;
+}
+
+.face{
+	position: absolute;
+	background-color: #F08080;
+	height: 160px;
+	width: 170px;
+	border-radius: 0 0 50% 50%;
+	margin-top: 18.5%;
+	margin-left: 43.5%; 
+}
+
+
+.neck{
+	position: absolute;
+	background: linear-gradient(180deg, rgba(205,92,92,1) 50%, rgba(240,128,128,1) 94%);
+	height: 90px;
+	width: 115px;
+	margin-top: 25%;
+	margin-left: 45%;
+}
+
+.body{
+	position: absolute;
+	background-color: #F08080;
+	height: 90px;
+	width: 250px;
+	margin-top: 30%;
+	margin-left: 40%;
+
+}
+
+.hair2{
+	position: absolute;
+	background-color: black;
+	height: 100px;
+	width: 120px;
+	right: 150px;
+	top: -80px;
+	border-radius: 0 0 50% 20%;
+}
+
+.hair3{
+	position: absolute;
+	background-color: black;
+	height: 100px;
+	width: 80px;
+	left: 180px;
+	top: -80px;
+	border-radius: 0 0 20% 50%;
+}
+
+.shoulder1{
+	position: absolute;
+	height: 90px;
+	width: 100px;
+	background-color: #F08080;
+	border-radius: 60% 60% 0 0;
+	right: 195px;
+	top: 5px;
+}
+
+.shoulder2{
+	position: absolute;
+	height: 90px;
+	width: 100px;
+	background-color: #F08080;
+	border-radius: 60% 60% 0 0;
+	left: 200px;
+	top: 5px;
+}
+
+.hair{
+	position: absolute;
+	height: 180px;
+	width: 280px;
+	background-color: black;
+	margin-top: 14%;
+	margin-left: 38.7%;
+	border-radius: 50% 50% 0 0;
+}
+
+.lips{
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	transform: rotate(-45deg);
+	margin-top: 55%;
+	margin-left: 43%;
+	border-radius: 0 50% 0 50%;
+	background-color: #800080;
+}
+
+.eyel1{
+	position: absolute;
+	height: 30px;
+	width: 45px;
+	border-bottom: 5px solid black;
+	border-radius: 50% 45% 20% 45%;
+	top: 22px;
+	left: 19px;
+}
+
+.eyel2{
+	position: absolute;
+	height: 30px;
+	width: 45px;
+	border-bottom: 5px solid black;
+	border-radius: 50% 45% 45% 20%;
+	top: 22px;
+	right: 14px;
+}
+
+.eyebrow2{
+	position: absolute;
+	height: 30px;
+	width: 50px;
+	border-top: 7px solid black;
+	border-radius: 20% 45% 0 45%;
+	top: 18px;
+	right: 12px;
+}
+
+.eyebrow1{
+	position: absolute;
+	height: 30px;
+	width: 50px;
+	border-top: 7px solid black;
+	border-radius: 45% 20% 45% 0;
+	top: 18px;
+	left: 16px;
+}

@@ -1,0 +1,245 @@
+.cup{
+	position: absolute;
+	height: 180px;
+	width: 150px;
+	background-color: brown;
+	/*margin-left: 45%;
+	margin-top: 20%;*/
+	border-radius: 5% 45% 45% 5%;
+	transform: rotate(90deg);
+	right: 60px;
+	top: -45px;
+}
+
+.handle{
+	position: relative;
+	margin-left:50%;
+	margin-top: 20%;
+	height:60px;
+	width:60px;
+	background-color: white;
+	border-radius: 50%;
+	border: 10px solid black;
+
+
+
+}
+
+.first{
+	position: absolute;
+	font-size: 400%;
+	top: -170px;
+	right: 160px;
+	/*font-stretch: expanded;*/
+	font-family: Lucida Sans Unicode, Arial;
+	color: silver;
+	opacity: 0;
+}
+
+.second{
+	position: absolute;
+	font-size: 400%;
+	top: -170px;
+	right: 80px;
+	/*font-stretch: expanded;*/
+	font-family: Lucida Sans Unicode, Arial;
+	color: silver;
+	opacity: 0;
+}
+
+.first , .second{
+	animation-name: change;
+	animation-duration: 1.8s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes change{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 0.5;
+	}
+}
+
+.eye1{
+	position: absolute;
+	height: 50px;
+	width: 65px;
+	background-color: black;
+	border-radius: 50%;
+	top: 110px;
+	left: 10px;
+}
+
+.eye2{
+	position: absolute;
+	height: 50px;
+	width: 65px;
+	background-color: black;
+	border-radius: 50%;
+	top : 20px;
+	left: 10px;
+}
+
+.circle1 , .circle2{
+	position: absolute;
+	height:30px;
+	width: 30px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	top: 12px;
+	left: 4px;
+
+}
+
+.circle3{
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	top: 9px;
+	left: 35px;
+	border: 1px solid black;
+}
+
+.mouth{
+	position: absolute;
+	background-color: black;
+	width: 10px;
+	height: 30px;
+	border-radius: 0 45% 45% 0;
+	top: 70px;
+	left: 85px;
+	opacity: 0;
+	animation-name: example;
+	animation-duration: 0.4s;
+	animation-fill-mode: backwards;
+	animation-timing-function: linear;
+}
+
+.i{
+	position: absolute;
+	background-color: black;
+	width: 40px;
+	height: 30px;
+	border-radius: 0 45% 45% 0;
+	top: 70px;
+	left: 85px;
+	opacity: 0;
+	animation-name: example;
+	animation-delay: 0.4s;
+	animation-duration: 0.4s;
+	animation-fill-mode: backwards;
+	animation-timing-function: linear;
+}
+
+.co{
+	position: absolute;
+	background-color: black;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 70px;
+	left: 85px;
+	opacity:0;
+	animation-name: example;
+	animation-fill-mode: backwards;
+	animation-duration: 0.4s;
+	animation-delay: 0.8s;
+	animation-timing-function: linear;
+}
+
+.ffee{
+	position: absolute;
+	background-color: black;
+	width: 15px;
+	height: 55px;
+	border-radius: 0 45% 45% 0;
+	top: 63px;
+	left: 85px;
+	opacity: 0;
+	animation-name: example;
+	animation-fill-mode: backwards;
+	animation-duration: 0.4s;
+	animation-delay: 1.2s;
+	animation-timing-function: linear;
+}
+
+@keyframes example{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.message{
+	position: relative;
+	height: 130px;
+	width: 160px;
+	background-color: black;
+	top: -170px;
+	left: 340px;
+	border-radius: 30%;
+}
+
+.I{
+	position: absolute;
+	font-size: 300%;
+	color: #FFFFFF;
+	left: 70px;
+	top: -25px;
+	opacity:0;
+	animation: example;
+	animation-duration: 0.4s;
+	animation-fill-mode: backwards;
+	animation-timing-function: linear;
+}
+
+.love{
+	position: absolute;
+	font-size: 300%;
+	color: #FFFFFF;
+	left: 10px;
+	top: -25px;
+	opacity: 0;
+	animation-name: example;
+	animation-delay: 0.4s;
+	animation-duration: 0.4s;
+	animation-fill-mode: backwards;
+	animation-timing-function: linear;
+}
+
+.coffee{
+	position: absolute;
+	font-size: 250%;
+	color: #FFFFFF;
+	left: 7px;
+	top: -10px;
+	opacity:0;
+	animation-name: example;
+	animation-delay: 0.7s;
+	animation-fill-mode: backwards;
+	animation-duration: 1.4s;
+	animation-timing-function: linear;
+
+}
+
+.triangle{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+	top: 55px;
+	left: 155px;
+}
+
+body{
+	background: radial-gradient(circle, rgba(241,229,241,1) 33%, rgba(220,177,177,1) 94%);
+}
+

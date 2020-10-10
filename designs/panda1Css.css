@@ -1,0 +1,170 @@
+body{
+	background-color: #ADD8E6;
+}
+
+.panda{
+	height: 220px;
+	width: 190px;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-radius:  45% 50% 50% 45%;
+	margin-top: 15%;
+	margin-left: -5%;
+}
+
+.eye1{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	background-color: black;
+	top: 360px;
+	border-radius: 30% 45% 30% 65%;
+	margin-left: -2%;
+	transform: rotate(-90deg);
+}
+
+.eye2{
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	background-color: black;
+	top: 250px;
+	border-radius: 30% 65% 30% 30%;
+	margin-left: -2%;
+}
+
+.eye3, .eye4{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: white;
+	margin-left: 0.5%;
+	border-radius: 50%;
+}
+
+.eye3{
+	top: 285px;
+}
+
+.eye4{
+	top: 370px;
+}
+
+.ear1{
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	transform: rotate(55deg);
+	border-top: 35px solid black;
+	border-radius: 50% 50% 0 0;
+	margin-left: 4.2%;
+	top: 230px;
+}
+
+.ear2{
+	position: absolute;
+	height: 40px;
+	width: 50px;
+	transform: rotate(130deg);
+	border-top: 35px solid black;
+	border-radius: 50% 50% 0 0;
+	margin-left: 4.2%;
+	top: 377px;
+}
+
+
+.nose{
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 14px solid #555;
+	border-bottom: 7px solid transparent;
+	top: 332px;
+	margin-left: -0.7%;
+}
+
+.heart1{
+	position:relative;
+	background-color: #FF1493;
+	height: 40px;
+	transform: rotate(45deg);
+	width: 40px;
+	margin-left: 18%;
+	top: -250px;
+	right: 67px;
+	border-radius: 4px 6px 0px 4px;
+	/*display:none;*/
+	/*opacity: 0;
+	animation-name: pop;
+	animation-delay: 2.5s;
+	animation-duration: 3.3s;
+	animation-iteration-count: infinite;*/
+	}
+
+	.hearts1{
+	position: absolute;
+	background-color: #FF1493;
+	height: 37.5px;
+	width: 37.7px;
+	border-radius: 50%;
+	/*border: 1px solid black;*/
+	top: -16px;
+	left:1px;
+}
+
+.hearts2{
+	position: absolute;
+	background-color: #FF1493;
+	height: 37.5px;
+	width: 37.5px;
+	border-radius: 50%;
+	/*border: 1px solid black;*/
+	top: 2px;
+	right: 20px;
+}
+
+.face{
+	opacity:0;
+	animation-name: example;
+	animation-fill-mode: forwards;
+	animation-duration: 0.1s;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+
+@keyframes example{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+.heart{
+	opacity:0;
+	animation-name: example;
+	animation-fill-mode: forwards;
+	animation-duration: 0.1s;
+	animation-timing-function: linear;
+	animation-delay: 1.5s;
+}
+
+p{
+	position: absolute;
+	margin-left: 27%;
+	font-size: 400%;
+}
+
+.hey{
+	top: 80px;
+}
+
+.say{
+	top: 170px;
+}
+
+
+

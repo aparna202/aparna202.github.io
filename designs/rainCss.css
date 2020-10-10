@@ -1,0 +1,416 @@
+body{
+	background-color: #6c78a9;
+}
+
+
+div{
+	background-color: #6c78a9;
+	height: 20px;
+	width: 1px;
+	border-radius: 0 0 70% 70%;
+	padding-bottom: 2px;
+}
+
+div:nth-child(3n):nth-child(-3n + 36){
+	animation-name: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+@keyframes example{
+	0%{
+		opacity: 1; background-color: white;
+	}
+	100%{
+		opacity: 0; margin-top: 40%; background-color: white;
+	}
+}
+
+div:nth-child(odd):nth-last-child(-n + 35):not(:nth-child(3n)){
+	animation-name: example;
+	animation-delay: 2.5s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+@keyframes example2{
+	0%{
+		opacity: 1; background-color: white;
+	}
+	100%{
+		opacity: 0; margin-top: 30%; background-color: white;
+	}
+}
+
+div:nth-child(n+2):nth-child(-n + 20):not(:nth-child(3n)){
+	animation-name: example;
+	animation-delay: 2.5s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+div:nth-child(7n):nth-child(-7n+38):not(:nth-child(3n)){
+	animation-name: example;
+	animation-delay: 3.1s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+div:nth-child(2n+21):nth-child(-n+35):not(:nth-child(26)){
+	animation-name: example;
+	animation-delay: 3s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+
+div:nth-child(n+39):nth-child(n+48){
+	animation-name: example2;
+	animation-delay: 2.7s;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+
+}
+
+
+div:nth-child(1) ,div:nth-child(26){
+	background-color: #6c78a9;
+}
+
+div:nth-child(2){
+	position: absolute;
+	margin-left: 4%;
+
+}
+
+div:nth-child(3){
+	position: absolute;
+	margin-left: 6%;
+	margin-top: 4%;
+}
+
+div:nth-child(4){
+	position: absolute;
+	margin-left: 9%;
+}
+
+div:nth-child(5){
+	position: absolute;
+	margin-left: 12%;
+	margin-top: 2%;
+}
+
+div:nth-child(6){
+	position: absolute;
+	margin-left: 14%;
+}
+
+div:nth-child(7){
+	position: absolute;
+	margin-left: 17%;
+
+}
+
+div:nth-child(8){
+	position: absolute;
+	margin-left: 19%;
+	margin-top: 2%;
+}
+
+div:nth-child(9){
+	position: absolute;
+	margin-left: 22%;
+}
+
+div:nth-child(10){
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 3%;
+}
+
+div:nth-child(11){
+	position: absolute;
+	margin-left: 28%;
+}
+
+div:nth-child(12){
+	position: absolute;
+	margin-left: 31%;
+	margin-top: 3%;
+}
+
+div:nth-child(13){
+	position: absolute;
+	margin-left: 34%;
+}
+
+div:nth-child(14){
+	position: absolute;
+	margin-left: 37%;
+}
+
+div:nth-child(15){
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+div:nth-child(16){
+	position: absolute;
+	margin-left: 43%;
+}
+
+div:nth-child(17){
+	position: absolute;
+	margin-left: 46%;
+}
+
+div:nth-child(18){
+	position: absolute;
+	margin-left: 49%;
+	margin-top: 3%;
+}
+
+div:nth-child(19){
+	position: absolute;
+	margin-left: 52%;
+}
+
+div:nth-child(20){
+	position: absolute;
+	margin-left: 55%;
+}
+
+div:nth-child(21){
+	position: absolute;
+	margin-left: 58%;
+	margin-top: 4%;
+}
+
+div:nth-child(22){
+	position: absolute;
+	margin-left: 61%;
+}
+
+div:nth-child(23){
+	position: absolute;
+	margin-left: 64%;
+	margin-top: 2%;
+}
+
+div:nth-child(24){
+	position: absolute;
+	margin-left: 67%;
+}
+
+div:nth-child(25){
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 5%;
+}
+
+div:nth-child(27){
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 2%;
+}
+
+div:nth-child(28){
+	position: absolute;
+	margin-left: 73%;
+	margin-top: -2%;
+}
+
+div:nth-child(29){
+	position: absolute;
+	margin-left: 76%;
+}
+
+div:nth-child(30){
+	position: absolute;
+	margin-left: 79%;
+	margin-top: -1%;
+}
+
+div:nth-child(31){
+	position: absolute;
+	margin-left: 82%;
+	margin-top: -3%;
+}
+
+div:nth-child(32){
+	position: absolute;
+	margin-left: 85%;
+	margin-top: 1%;
+}
+
+div:nth-child(33){
+	position: absolute;
+	margin-left: 88%;
+}
+
+div:nth-child(34){
+	position: absolute;
+	margin-left: 91%;
+	margin-top: -2%;
+}
+
+div:nth-child(35){
+	position: absolute;
+	margin-left: 94%;
+	margin-top: -3%; 
+}
+
+div:nth-child(36){
+	position: absolute;
+	margin-left: 97%;
+}
+
+div:nth-child(37){
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+div:nth-child(38){
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+div:nth-child(39){
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 4%;
+}
+
+div:nth-child(40){
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 3%;
+}
+
+div:nth-child(41){
+	position: absolute;
+	margin-left: 27%;
+	margin-top: 4%;
+}
+
+div:nth-child(42){
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 3%;
+}
+
+div:nth-child(43){
+	position: absolute;
+	margin-left: 42%;
+	margin-top: 5%;
+}
+
+div:nth-child(44){
+	position: absolute;
+	margin-left: 52%;
+	margin-top: 4%;
+}
+
+div:nth-child(45){
+	position: absolute;
+	margin-left: 63%;
+	margin-top: 5%;
+}
+
+div:nth-child(46){
+	position: absolute;
+	margin-left: 75%;
+	margin-top: 6%;
+}
+
+div:nth-child(47){
+	position: absolute;
+	margin-left: 82%;
+	margin-top: 5%;
+}
+
+div:nth-child(48){
+	position: absolute;
+	margin-left: 90%;
+	margin-top:4%;
+}
+
+div:nth-child(49){
+	position: absolute;
+	margin-left: 95%;
+	margin-top: 5%;
+}
+
+div:nth-child(50){
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 10%;
+}
+
+div:nth-child(51){
+	position: absolute;
+	margin-left: 19%;
+	margin-top: 8%;
+}
+
+div:nth-child(52){
+	position: absolute;
+	margin-left: 27%;
+	margin-top: 10%;
+}
+
+div:nth-child(53){
+	position: absolute;
+	margin-left: 37%;
+	margin-top: 8%;
+}
+
+div:nth-child(54){
+	position: absolute;
+	margin-left: 47%;
+	margin-top: 10%;
+}
+
+div:nth-child(55){
+	position: absolute;
+	margin-left: 57%;
+	margin-top: 8%;
+}
+
+div:nth-child(56){
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 10%;
+}
+
+div:nth-child(57){
+	position: absolute;
+	margin-left: 82%;
+	margin-top: 10%;
+}
+
+div:nth-child(58){
+	position: absolute;
+	margin-left: 89%;
+	margin-top: 9%;
+}
+
+div:nth-child(59){
+	position: absolute;
+	margin-left: 95%;
+	margin-top: 11%;
+}

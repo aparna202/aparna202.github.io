@@ -1,0 +1,530 @@
+.top1{
+	position: relative;
+	margin-left: 44.5%;
+	top: 220px;
+	width: 93px;
+	height: 93px;
+	border-radius:  10% 10% 5% 5%;
+	background-color: rgba(171,255,223,1);
+	/*border: 1px solid black;*/
+}
+
+.midrib{
+	position: relative;
+	margin-left: 44.6%;
+	top: 218px;
+	background-color: #FFEFD5;
+	height: 50px;
+	width: 87px;
+	border-radius: 10% 10% 0 0;
+}
+
+/*.curve1{
+	position: absolute;
+	height: 53px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: white;
+	right: 85px;
+}
+
+.curve2{
+	position: absolute;
+	height: 53px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: white;
+	left: 85px;
+}*/
+
+.jeans1{
+	position: relative;
+	top: 205px;
+	background-color: #00008B;
+	height: 200px;
+	width: 40px;
+	margin-left: 44.6%;
+	border-radius: 15% 0 0 0;
+}
+
+.jeans2{
+	position: relative;
+	top: 6px;
+	background-color: #00008B;
+	height: 200px;
+	width: 40px;
+	margin-left: 47.8%;
+	border-radius: 0 15% 0 0;
+}
+
+.jeans3{
+	position: relative;
+	top: -200px;
+	background-color: #00008B;
+	height: 40px;
+	width: 88px;
+	border-radius: 15% 15% 0 0;
+	margin-left: 44.6%;
+}
+
+.sleeve1{
+	position: absolute;
+	height: 145px;
+	width: 40px;
+	border-radius: 40% 40% 0 0;
+	background-color: rgba(171,255,223,1);
+	border-left: 1px solid black;
+	top: -130px;
+	right: 77px;
+}
+
+.sleeve2{
+	position: absolute;
+	height: 145px;
+	width: 40px;
+	border-radius: 40% 40% 0 0;
+	background-color: rgba(171,255,223,1);
+	border-right: 1px solid black;
+	top: -130px;
+	left: 77px;
+}
+
+.neck{
+	position: absolute;
+	top: -48px;
+	margin-left: 35%;
+	height: 48px;
+	width: 25px;
+	background-color: #FFEFD5;
+
+	
+}
+.shoulder1{
+	position: absolute;
+	top: 18px;
+	right: 25px;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-right: 42px solid #FFEFD5;
+	border-bottom: 0 solid transparent;
+}
+
+.shoulder2{
+	position: absolute;
+	top:18px;
+	left: 25px;
+	width:0;
+	height:0;
+	border-top: 30px solid transparent;
+	border-left: 42px solid #FFEFD5;
+	border-bottom: 0 solid transparent;
+}
+
+.face{
+	position: absolute;
+	top: -82px;
+	height: 90px;
+	width: 65px;
+	border-radius: 75% 75% 50% 80%;
+	border: 1px solid black;
+	background-color: #FFEFD5;
+	right: -20px;
+	transform: rotate(15deg);
+}
+
+.hair1{
+	position: absolute;
+	height: 67px;
+	width: 75px;
+	border-radius: 50%;
+	border-top: 33px solid black;
+	transform: rotate(-78deg);
+	top: -16px;
+	right: 10.5px;
+}
+
+.hair2{
+	position: absolute;
+	height: 67px;
+	width: 73px;
+	border-radius: 50%;
+	border-top: 20px solid black;
+	right: 1px;
+	top: -12px;
+	transform: rotate(-8deg);
+}
+
+.hair3{
+	position: absolute;
+	height: 30px;
+	width: 50px;
+	border-radius: 40%;
+	border-top: 17px solid black;
+	transform: rotate(-19deg);
+	top: -11px;
+	right: 28px;
+}
+
+.bun{
+	position: absolute;
+	height: 40px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: black;
+	top: -38px;
+	transform: rotate(-12deg);	
+	right: 14px;
+}
+
+.eyebrow1{
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	border-top: 2px solid black;
+	border-radius: 45% 20% 45% 0;
+	/*background-color: pink;*/
+	transform: rotate(-15deg);
+	top: 32px;
+	right: 40px;
+}
+
+.eyebrow2{
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	border-top: 2px solid black;
+	border-radius: 20% 45% 0 45%;
+	/*background-color: pink;*/
+	transform: rotate(-15deg);
+	top: 22px;
+	left: 42px;
+}
+
+.eye1{
+	position: absolute;
+	height: 10px;
+	width: 22px;
+	border-bottom: 2px solid black;
+	border-radius: 0 0 25% 35%;
+	/*background-color: pink;*/
+	transform: rotate(-15deg);
+	top: 37px;
+	right: 40px;
+}
+
+.eye2{
+	position: absolute;
+	height: 10px;
+	width: 22px;
+	border-bottom: 2px solid black;
+	border-radius: 0 0 25% 35%;
+	/*background-color: pink;*/
+	transform: rotate(-15deg);
+	top: 28px;
+	left: 41px;
+}
+
+.lipsb{
+	position: absolute;
+	height: 13px;
+	width: 23px;
+	border-radius: 50%;
+	border-bottom: 2px solid 	#C71585;
+	transform: rotate(-15deg);
+	top: 60.5px; 
+	left: 30px;
+}
+
+.lipsu{
+	position: absolute;
+	height: 30px;
+	width: 23px;
+	border-top: 2px solid 	#C71585;
+	transform: rotate(-15deg);
+	top: 66.9px; 
+	left: 34px;
+}
+
+.nose{
+	position: absolute;
+	height: 8px;
+	width: 6px;
+	transform: rotate(-15deg);
+	top: 50px; 
+	left: 40px;
+	border-left: 1px solid black;
+	border-radius: 0 0 50% 0;
+}
+
+
+.top2{
+	position: relative;
+	margin-left: 60%;
+	top: -370px;
+	width: 93px;
+	height: 93px;
+	border-radius:  10% 10% 5% 5%;
+	background-color: 	#FFB6C1;
+}
+
+.neck2{
+	position: absolute;
+	top: -48px;
+	margin-left: 30%;
+	height: 48px;
+	width: 25px;
+	background-color: 	#A0522D;
+}
+
+.shoulder3{
+	position: absolute;
+	top: 18px;
+	right: 25px;
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-right: 42px solid 	#A0522D;
+	border-bottom: 0 solid transparent;
+}
+
+.shoulder4{
+	position: absolute;
+	top:18px;
+	left: 25px;
+	width:0;
+	height:0;
+	border-top: 30px solid transparent;
+	border-left: 42px solid 	#A0522D;
+	border-bottom: 0 solid transparent;
+}
+
+.midrib2{
+	position: relative;
+	margin-left: 60%;
+	top: -372px;
+	background-color: #A0522D;
+	height: 50px;
+	width: 87px;
+	border-radius: 10% 10% 0 0;
+}
+
+.jeans4{
+	position: relative;
+	top: -372px;
+	background-color: #00008B;
+	height: 200px;
+	width: 40px;
+	margin-left: 60%;
+	border-radius: 15% 0 0 0;
+}
+
+.jeans5{
+	position: relative;
+	top: -572px;
+	background-color: #00008B;
+	height: 200px;
+	width: 40px;
+	margin-left: 63.3%;
+	border-radius: 0 15% 0 0;
+}
+
+.jeans6{
+	position: relative;
+	top: -780px;
+	background-color: #00008B;
+	height: 40px;
+	width: 88px;
+	border-radius: 15% 15% 0 0;
+	margin-left: 60%;
+}
+
+.sleeve3{
+	position: absolute;
+	height: 145px;
+	width: 40px;
+	border-radius: 40% 40% 0 0;
+	background-color: #FFB6C1;
+	border-left: 1px solid black;
+	top: -140px;
+	right: 75px;
+}
+
+.sleeve4{
+	position: absolute;
+	height: 145px;
+	width: 40px;
+	border-radius: 40% 40% 0 0;
+	background-color: #FFB6C1;
+	border-right: 1px solid black;
+	top: -140px;
+	left: 77px;
+}
+
+.hair4{
+	position: absolute;
+	height: 100px;
+	width: 33px;
+	background-color: black;
+	top: -110px;
+	left: 9px;
+	border-radius: 20% 0 20% 20%;
+
+}
+
+.hair5{
+	position: absolute;
+	height: 100px;
+	width: 33px;
+	background-color: black;
+	top: -110px;
+	right: 9px;
+	border-radius: 20% 0 20% 20%;
+}
+
+.face2{
+	position: absolute;
+	top: -82px;
+	height: 90px;
+	width: 65px;
+	border-radius: 75% 75% 80% 50%;
+	border: 1px solid black;
+	background-color: #A0522D;
+	right: -20px;
+	transform: rotate(0deg);
+}
+
+.hair6{
+	position: absolute;
+	height: 90px;
+	width: 20px;
+	background-color: black;
+	right: -13px;
+	border-radius: 0 20% 0 0;
+}
+
+.hair7{
+	position: absolute;
+	height: 35px;
+	width: 80px;
+	top: -12px;
+	background-color: black;
+	border-radius: 60% 60% 0 0;
+	right: -10px;
+}
+
+.eyebrow3{
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	border-top: 2px solid black;
+	border-radius: 45% 20% 45% 0;
+	/*background-color: pink;*/
+	top: 32px;
+	right: 40px;
+}
+
+.eyebrow4{
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	border-top: 2px solid black;
+	border-radius: 20% 45% 0 45%;
+	/*background-color: pink;*/
+	top: 33px;
+	left: 39px;
+}
+
+
+.eye3{
+	position: absolute;
+	height: 10px;
+	width: 22px;
+	border-bottom: 2px solid black;
+	border-radius: 0 0 25% 35%;
+	/*background-color: pink;*/
+	top: 37px;
+	right: 40px;
+}
+
+.eye4{
+	position: absolute;
+	height: 10px;
+	width: 22px;
+	border-bottom: 2px solid black;
+	border-radius: 0 0 25% 35%;
+	/*background-color: pink;*/
+	top: 37.5px;
+	left: 39px;
+}
+
+
+.nose2{
+	position: absolute;
+	height: 8px;
+	width: 6px;
+	top: 60px; 
+	left: 30px;
+	border-left: 1px solid black;
+	border-radius: 0 0 0 50%;
+}
+
+.lipsb2{
+	position: absolute;
+	height: 13px;
+	width: 23px;
+	border-radius: 50%;
+	border-bottom: 3px solid red;
+	top: 67px; 
+	left: 18px;
+}
+
+.lipsu2{
+	position: absolute;
+	height: 10px;
+	width: 23px;
+	border-top: 5px solid red;
+	top: 75px; 
+	left: 18px;
+}
+
+.teeth{
+	position: absolute;
+	top: 76.7px;
+	height: 2px;
+	width: 18px;
+	border-radius: 0 0 50% 50%;
+	background-color: white;
+	left: 20px;
+}
+
+body{
+	background: linear-gradient(90deg, rgba(240,166,224,1) 40%, rgba(171,238,255,1) 81%);
+}
+
+.para1 , .para2{
+	font-family: Impact;
+	position: relative;
+	top: -1000px;
+	font-size: 500%;
+}
+
+.para1{
+	margin-left: 10%;
+	color: 	#FFF5EE;
+}
+.para2{
+	margin-left: 78%;
+	top: -1170px;
+	color: 	#BC8F8F;
+}
+
+.para3{
+	position: relative;
+	font-family: "Lucida Console";
+	color: 	#800080;
+	font-size: 200%;
+	top: -1000px;
+	margin-left: 40%;
+	padding: 5px;
+}

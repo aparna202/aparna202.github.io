@@ -1,0 +1,232 @@
+body{
+	background-color: 	#FF69B4;
+}
+
+.tag2{
+	display: none;
+}
+
+h2{
+	position: absolute;
+	color: lavender;
+	font-size: 60px;
+	font-family: 'Epilogue', sans-serif;
+	overflow: hidden; 
+	border-right: .15em solid #483D8B; 
+	white-space: nowrap; 
+	margin-left: 32%; 
+	letter-spacing: .15em; 
+	animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, change 0.1s linear forwards;
+	opacity: 0;
+}
+
+@keyframes typing {
+  from { width: 0;}
+  to { width: 40%;}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #483D8B; }
+}
+
+@keyframes change{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+img{
+	width: 550px;
+	height: 340px;
+}
+
+.ft{
+	position: absolute; 
+	/*top: 100px;
+	left: 40px;*/
+	margin-top: 18%;
+	margin-left: 5%;
+}
+
+.earrings{
+	position: absolute;
+	margin-top: 18%;
+	margin-left: 55%;
+}
+
+.p2{
+	position: absolute;
+	margin-top: 45%;
+	margin-left: 5%;
+}
+
+.hn{
+	position: absolute;
+	margin-top: 45%;
+	margin-left: 55%;
+	height: 500px;
+	width: 516px;
+}
+
+.evening{
+	position: absolute;
+	margin-top: 75%;
+	margin-left: 5%;
+}
+
+.girl{
+	position: absolute;
+	margin-top: 85%;
+	margin-left: 55%;
+	height: 400px;
+}
+
+@media only screen and (max-width: 1024px){
+	
+	/*a{
+		visibility: hidden;
+	}*/
+	.tag1{
+		display: none;
+	}
+	.tag2{
+		display: block;
+	}
+	img{
+		width: 450px;
+	}
+	.ft{
+		margin-top: 45%;
+		margin-left: 12%;
+	}
+	.earrings{
+		margin-top: 125%;
+		margin-left: 12%;
+	}
+	.p2{
+		margin-top: 205%;
+		margin-left: 12%;
+	}
+	.hn{
+		margin-top: 365%;
+		margin-left: 12%;
+	}
+	.evening{
+		margin-top: 285%;
+		margin-left: 12%;
+	}
+	.girl{
+		position: absolute;
+		margin-top: 475%;
+		margin-left: 12%;
+	}
+	h2{
+		margin-left: 18%;
+		font-size: 40px;
+		animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, change 0.1s linear forwards;
+		opacity: 0;
+
+	}
+	p{
+		margin-left: 15%;
+		font-size: 15px;
+		margin-top: 20%;
+		animation: typing 3s 3s steps(40, end), blink-caret .75s 3s step-end infinite, change 0.1s 3s linear forwards;
+		opacity: 0;
+	}
+
+	@keyframes typing {
+	  		from { width: 0;}
+	  		to { width: 100%;}
+	}
+	@keyframes blink-caret {
+  		from, to { border-color: transparent }
+  		50% { border-color: #FF1493; }
+	}
+
+	@keyframes change{
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
+
+}
+
+@media only screen and (max-width: 650px){
+	/*a {
+		display: none;
+	}*/
+	.tag1{
+		display: none;
+	}
+	.tag2{
+		display: block;
+	}
+	.ft{
+		margin-top: 45%;
+		margin-left: 2%;
+	}
+	.earrings{
+		margin-top: 125%;
+		margin-left: 2%;
+	}
+	.p2{
+		margin-top: 205%;
+		margin-left: 2%;
+	}
+	.hn{
+		margin-top: 365%;
+		margin-left: 2%;
+	}
+	.evening{
+		margin-top: 285%;
+		margin-left: 2%;
+	}
+	.girl{
+		position: absolute;
+		margin-top: 475%;
+		margin-left: 2%;
+	}
+	h2{
+		margin-left: 4%;
+		font-size: 40px;
+		animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, change 0.1s linear forwards;
+		opacity: 0;
+
+	}
+	p{
+		margin-left: 2%;
+		font-size: 15px;
+		margin-top: 20%;
+		animation: typing 3s 3s steps(40, end), blink-caret .75s 3s step-end infinite, change 0.1s 3s linear forwards;
+		opacity: 0;
+	}
+
+	@keyframes typing {
+	  		from { width: 0;}
+	  		to { width: 100%;}
+	}
+	@keyframes blink-caret {
+  		from, to { border-color: transparent }
+  		50% { border-color: #FF1493; }
+	}
+
+	@keyframes change{
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+
+
+}

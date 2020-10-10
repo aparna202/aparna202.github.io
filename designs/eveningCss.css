@@ -1,0 +1,420 @@
+.margin{
+	position: relative;
+	width: 100%;
+	height: 99vh;
+	/*border: 1px solid black;*/
+}
+
+body{
+	background: linear-gradient(180deg, rgba(122,13,224,1) 10%, rgba(170,58,225,1) 50%, rgba(255,105,180,1) 80%);
+}
+
+.building1{
+	position: absolute;
+	height: 153px;
+	width: 122px;
+	background-color: black;
+	top: 600px;
+	margin-left: 1px;
+}
+
+.building2{
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	background-color: black;
+	top: 635px;
+	margin-left: 8%;
+}
+
+.building3{
+	position: absolute;
+	height: 300px;
+	width: 100px;
+	top:460px;
+	margin-left: 18%;
+	background-color: black;
+}
+
+.building4{
+	position: absolute;
+	height: 230px;
+	width: 130px;
+	background-color: black;
+	margin-left: 23%;
+	top: 525px;
+}
+
+.building5{
+	position: absolute;
+	height: 163px;
+	width: 150px;
+	top: 590px;
+	margin-left: 31%;
+	background-color: black;
+}
+
+.building6{
+	position: absolute;
+	height: 230px;
+	width: 130px;
+	background-color: black;
+	margin-left: 40%;
+	top: 525px;
+
+}
+
+
+.building7{
+	position: absolute;
+	height: 400px;
+	width: 140px;
+	top: 353px;
+	background-color: black;
+	margin-left: 82%;
+}
+
+.building8{
+	position: absolute;
+	height: 120px;
+	width: 140px;
+	background-color: black;
+	top: 635px;
+	margin-left: 48%;
+}
+
+.building9{
+	position: absolute;
+	height: 169px;
+	width: 124px;
+	background-color: black;
+	top: 584px;
+	margin-left: 56%;
+}
+
+.building10{
+	position: absolute;
+	height: 120px;
+	width: 160px;
+	background-color: black;
+	top: 635px;
+	margin-left: 64%;
+}
+
+.building11{
+	position: absolute;
+	height: 240px;
+	width: 130px;
+	background-color: black;
+	margin-left: 74%;
+	top: 515px;
+}
+
+.building12{
+	position: absolute;
+	height: 310px;
+	width: 112px;
+	top:445px;
+	margin-left: 91%;
+	background-color: black;
+
+}
+
+
+.building1 , .building2, .building3, .building4 , .building5, .building6, .building7, .buildin8, .building9, .building10, .building11, .building12{
+	border-right: 2px solid white;
+}
+
+.building3, .building6, .building9, .building11{
+	border-left: 1px solid white;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.windows1 , .windows2 , .windows3 , .windows4 , .windows5 , .windows6 , .windows7 , .windows8 , .windows9 , .windows10 , .windows11, .windows12{
+	color: #FFF8DC;
+	font-size: 150%;
+}
+
+.windows1:nth-child(1) , .windows2:nth-child(1) , .windows3:nth-child(1) , .windows4:nth-child(1) , .windows5:nth-child(1), .windows6:nth-child(1), .windows7:nth-child(1),
+.windows8:nth-child(1) , .windows9:nth-child(1) , .windows10:nth-child(1) , .windows11:nth-child(1) , .windows12:nth-child(1){
+	position: absolute;
+	top: 5px;
+}
+
+.windows1:nth-child(2) , .windows2:nth-child(2), .windows3:nth-child(2) , .windows4:nth-child(2) , .windows5:nth-child(2), .windows6:nth-child(2), .windows7:nth-child(2),
+.windows8:nth-child(2) , .windows9:nth-child(2) , .windows10:nth-child(2) , .windows11:nth-child(2) , .windows12:nth-child(2){
+	position: absolute;
+	top: 5px;
+	left: 90px;
+}
+
+.windows1:nth-child(3), .windows2:nth-child(3), .windows3:nth-child(3) , .windows4:nth-child(3) , .windows5:nth-child(3), .windows6:nth-child(3), .windows7:nth-child(3),
+.windows8:nth-child(3) , .windows9:nth-child(3) , .windows10:nth-child(3) , .windows11:nth-child(3) , .windows12:nth-child(3){
+	position: absolute;
+	top: 30px;
+}
+
+.windows1:nth-child(4), .windows2:nth-child(4), .windows3:nth-child(4) , .windows4:nth-child(4) , .windows5:nth-child(4), .windows6:nth-child(4), .windows7:nth-child(4),
+.windows8:nth-child(4) , .windows9:nth-child(4) , .windows11:nth-child(4) , .windows12:nth-child(4){
+	position: absolute;
+	top: 30px;
+	left: 90px;
+}
+
+.windows1:nth-child(5) , .windows4:nth-child(5) , .windows5:nth-child(5), .windows6:nth-child(5), .windows7:nth-child(5),
+.windows9:nth-child(5) , .windows11:nth-child(5) , .windows12:nth-child(5){
+	position: absolute;
+	top: 60px;
+}
+
+.windows1:nth-child(6) , .windows4:nth-child(6) , .windows6:nth-child(6) , .windows7:nth-child(6), .windows11:nth-child(6) , .windows12:nth-child(6) {
+	position: absolute;
+	top: 60px;
+	left: 90px;
+}
+
+
+.windows4:nth-child(7) , .windows6:nth-child(7) , .windows7:nth-child(7), .windows11:nth-child(7) , .windows12:nth-child(7){
+	position: absolute;
+	top: 90px;
+}
+
+.windows4:nth-child(8) , .windows6:nth-child(8) , .windows7:nth-child(8), .windows11:nth-child(8) , .windows12:nth-child(8){
+	position: absolute;
+	top: 90px;
+	left: 90px;
+}
+
+.windows2 , .windows4 , .windows5 , .windows6 , .windows7 , .windows8 , .windows10 , .windows11{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.windows3 , .windows1{
+	margin-top: 5px;
+}
+
+.pole1{
+	position: absolute;
+	height: 350px;
+	width: 15px;
+	margin-left: 3%;
+	background-color: black;
+	top: 250px;
+}
+
+.bar1{
+	position: absolute;
+	height: 30px;
+	width: 10px;
+	transform: rotate(90deg);
+	top: 5px;
+	background-color: black;
+	left: 2px;
+}
+
+.bar2{
+	position: absolute;
+	height: 30px;
+	width: 10px;
+	transform: rotate(90deg);
+	top: 20px;
+	background-color: black;
+	left: 2px;
+}
+
+.pole2{
+	position: absolute;
+	height: 350px;
+	width: 15px;
+	margin-left: 44%;
+	background-color: black;
+	top: 225px;
+}
+
+.pole3{
+	position: absolute;
+	height: 350px;
+	width: 15px;
+	margin-left: 86%;
+	background-color: black;
+	top: 180px;
+}
+
+.wire1{
+	position: absolute;
+	top: 258px;
+	width: 2px;
+	height: 57px;
+	transform: rotate(40deg);
+	margin-left: 1.3%;
+	background-color: black;
+}
+
+.wire2{
+	position: absolute;
+	top: 274px;
+	width: 2px;
+	height: 57px;
+	transform: rotate(40deg);
+	margin-left: 1.3%;
+	background-color: black;
+
+}
+
+.wire3{
+	position: absolute;
+	top: -52px;
+	width: 2px;
+	height: 620px;
+	transform: rotate(87deg);
+	margin-left: 24%;
+	background-color: black;
+
+
+}
+
+.wire4{
+	position: absolute;
+	top: -37px;
+	width: 2px;
+	height: 620px;
+	transform: rotate(87deg);
+	margin-left: 24%;
+	background-color: black;
+}
+
+.wire5{
+	position: absolute;
+	top: -92px;
+	width: 2px;
+	height: 627px;
+	transform: rotate(85deg);
+	margin-left: 66%;
+	background-color: black;
+}
+
+.wire6{
+	position: absolute;
+	top: -76px;
+	width: 2px;
+	height: 627px;
+	transform: rotate(86deg);
+	margin-left: 66%;
+	background-color: black;
+}
+
+.wire7{
+	position: absolute;
+	top: 130px;
+	width: 2px;
+	height: 202px;
+	transform: rotate(-70deg);
+	margin-left: 92.5%;
+	background-color: black;
+}
+
+.wire8{
+	position: absolute;
+	top: 147px;
+	width: 2px;
+	height: 202px;
+	transform: rotate(-70deg);
+	margin-left: 92.5%;
+	background-color: black;
+}
+
+.streetlight1{
+	position: absolute;
+	margin-left: 28%;
+	top: 147px;
+	height: 457px;
+	width: 10px;
+	background-color: black;
+}
+
+.streetlight2{
+	position: absolute;
+	top: 450px;
+	margin-left: 53%;
+	height: 200px;
+	width: 10px;
+	background-color: black;
+
+}
+
+.streetlight3{
+	position: absolute;
+	top: 400px;
+	margin-left: 72%;
+	height: 250px;
+	width: 10px;
+	background-color: black; 
+}
+
+.light1 , .light2 , .light3{
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	border-top: 10px solid black;
+	border-radius: 50%;
+	background-color: yellow;
+	opacity: 0.5;
+	animation-name: change;
+	animation-delay: 0.7s;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+.op1 , .op2 , .op3{
+	position: absolute;
+	height: 30px;
+	width: 50px;
+	background-color: #FFFACD;
+	opacity: 0;
+	border-radius: 50%;
+	animation-name: example;
+	animation-delay: 0.7s;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+.moon{
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background: radial-gradient(circle, #e5eef2 40%, #aeb8c3 75%);
+	margin-left: 80%;
+	top: 50px;
+	opacity:0;
+	animation-name: change;
+	animation-delay: 0.7s;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes example{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 0.5;
+	}
+}
+
+@keyframes change{
+	from{
+		opacity: 0.5;
+	}
+	to{
+		opacity: 1;
+	}
+}
+

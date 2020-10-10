@@ -1,0 +1,318 @@
+body{
+	background: linear-gradient(to bottom, rgba(6,12,156,1) 15%, rgba(15,80,167,1) 44%, rgba(169,103,235,1) 91%);
+	background-repeat: no-repeat;
+}
+
+.margin{
+	width: 100%;
+	height: 96vh;
+	border: 1px solid black;
+}
+
+.moon{
+	float: right;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: radial-gradient(circle, #e5eef2 40%, #aeb8c3 75%);
+	margin-right: 13%;
+	opacity: 0;
+	animation-name: fade;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes fade{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+li:nth-child(2){
+	margin-left: 8%;
+	padding: 7px;
+}
+li{
+	color: #FFFFFF;
+}
+
+li:nth-child(3){
+	margin-left: 4%;
+	padding: 7px;
+}
+
+li:nth-child(4){
+	margin-left: 10%;
+}
+
+li:nth-child(5){
+	margin-left: 1%;
+}
+
+li:nth-child(6){
+	margin-left: 20%;
+	margin-top: -7%;
+}
+
+li:nth-child(7){
+	margin-left: 16%;
+}
+
+li:nth-child(8){
+	margin-left: 23%;
+}
+
+li:nth-child(9){
+	margin-left: 18%;
+}
+
+li:nth-child(10){
+	margin-left: 27%;
+}
+
+li:nth-child(11){
+	margin-left: 14%;
+}
+
+li:nth-child(12){
+	margin-left: 31%;
+	margin-top: -6%;
+}
+
+li:nth-child(13){
+	margin-left: 35%;
+}
+li:nth-child(14){
+	margin-left: 32%;
+	padding: 10px;
+}
+
+li:nth-child(15){
+	margin-left: 37%;
+}
+li:nth-child(16){
+	margin-left: 45%;
+	margin-top: -9%;
+}
+li:nth-child(17){
+	margin-left: 40%;
+}
+li:nth-child(18){
+	margin-left: 49%;
+}
+li:nth-child(19){
+	margin-left: 44%;
+}
+li:nth-child(20){
+	margin-left: 40%;
+}
+li:nth-child(21){
+	margin-left: 55%;
+}
+li:nth-child(22){
+	margin-left: 58%;
+	margin-top: -7%;
+}
+li:nth-child(23){
+	margin-left: 62%;
+	margin-top: 2%;
+}
+
+li:nth-child(24){
+	margin-left: 66%;
+}
+li:nth-child(25){
+	margin-left: 47%;
+}
+li:nth-child(26){
+	padding: 10px;
+	margin-left: 6%;
+}
+
+li:nth-child(27){
+	margin-top: 1%;
+	margin-left: 30%;
+}
+li:nth-child(28){
+	margin-left: 20%;
+	margin-top: -3%;
+}
+li:nth-child(29){
+	margin-left: 14%;
+}
+li:nth-child(30){
+	margin-left: 60%;
+}
+li:nth-child(31){
+	margin-left: 50%;
+}
+li:nth-child(32){
+	margin-left: 40%;
+	margin-top: -3%;
+}
+li:nth-child(33){
+	margin-left: 35%;
+}
+ul{
+	margin-left: 7%;
+	/*margin-top: 0px;*/
+	opacity:0;
+	animation-name: twinkle;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes twinkle{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
+
+.cluster{
+	margin-left: 70%;
+	margin-top: -8%;
+}
+
+.top{
+	margin-top: -40%;
+}
+
+.girl{
+	position: relative;
+	height: 100px;
+	width: 52px;
+	background-color: black;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 40% 40% 25% 25%;
+	opacity: 0.9;
+
+}
+
+.top{
+	position:absolute;
+	height: 110px;
+	width: 80px;
+	background-color: black;
+	top: 100px;
+	right: -14px;
+	border-radius: 14% 14% 5% 5%;
+}
+
+.skirt{
+	position: absolute;
+	height:0;
+	width:80px;
+	border-bottom:90px solid black;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	top: 100px;
+	right:-40px;
+}
+
+.leg1{
+	position:absolute;
+	height:90px;
+	width: 27px;
+	background-color: black;
+	top: 90px;
+	left:2px;
+}
+
+.leg2{
+	position: absolute;
+	height:90px;
+	width: 27px;
+	background-color: black;
+	top:90px;
+	left: 47px;
+
+}
+
+.shoe1, .shoe2{
+	position: absolute;
+	height: 25px;
+	width: 46px;
+	background-color: black;
+	top:74px;
+	right:-16px;
+	border-radius: 45% 45% 40% 40%;
+	transform: skewY(-1deg);
+}
+
+.hand1{
+	position: absolute;
+	height:90px;
+	width:22px;
+	background-color: black;
+	right: 79px;
+	top:8px;
+	transform: rotate(26deg);
+	border-radius:8%;
+
+}
+
+.hand2{
+	position: absolute;
+	height:90px;
+	width:22px;
+	background-color: black;
+	left: 84px;
+	top:6px;
+	transform: rotate(-34deg);
+	border-radius: 8%;
+
+}
+
+.palm1, .palm2{
+	position: absolute;
+	height: 20px;
+	width: 17px;
+	background-color: black;
+	top: 80px;
+	border-radius: 2% 2% 40% 40%; 
+
+}
+
+.string{
+	position: absolute;
+	height: 180px;
+	transform: rotate(208deg);
+	width:1px;
+	background-color: black;
+	left: 45px;
+	top: -150px;
+	animation-name: moving;
+	animation-duration: 1.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+.balloon{
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	background-color: black;
+	border-radius: 10% 60% 60% 60%;
+	top: 170px; 
+	right: -35px;
+	transform: rotate(45deg);
+}
+
+@keyframes moving{
+	from{
+		left:45px; top:-150px; transform: rotate(208deg);
+	}
+	to{
+		left:80px; top:-120px; transform: rotate(240deg);
+	}
+}
